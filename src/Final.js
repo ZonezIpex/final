@@ -20,7 +20,7 @@ function Final() {
           display: "inline-block",
           width: "50px",
           height: "50px",
-          background: color,
+          background: "purple",
           border: "1px solid #ccc",
           verticalAlign: "middle",
         }}
