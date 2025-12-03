@@ -3,7 +3,7 @@ import React, { useState } from 'react'; // 리엑트에서 useState를 쓰겠�
 function CombinedComponent() {
   const [status, setStatus] = useState('on'); 
 
-  const [count, setCount] = useState(0); // `count` 상태와 이를 업데이트하는 `setCount` 함수를 선언합니다.
+  const [count, setCount] = useState(0); 
 
   const handleToggle = () => {
     setStatus(prevStatus => (prevStatus === 'on' ? 'off' : 'on')); // 상태를 토글하는 함수

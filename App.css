@@ -1,0 +1,92 @@
+.title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* 기본 스타일 작성하기 */
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonOn {
+    background-color: green;
+    color: white;
+}
+
+.buttonOff {
+    background-color: red;
+    color: white;
+}
+
+.buttonCount {
+    background-color: blue;
+    color: white;
+}
+
+.counter {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.finalbutton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.finalbuttonOn {
+    background-color: green;
+    color: white;
+}
+
+.finalbuttonOff {
+    background-color: red;
+    color: white;
+}
+
+.finalbuttonCount {
+    background-color: blue;
+    color: white;
+}
+
+.blogPage {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.blogTitle {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.blogContent {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.blogButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blogButton:hover {
+    background-color: #45a049;
+}
